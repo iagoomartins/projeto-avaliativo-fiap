@@ -1,0 +1,64 @@
+.social-icons img { 
+    width: 30px; 
+    height: 30px; 
+    margin: 0 10px; 
+} 
+ 
+.icon { 
+    width: 20px; 
+    height: 20px; 
+} 
+ 
+.login-btn { 
+    display: block; 
+    width: 100%; 
+    text-align: center; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    margin-top: 20px;  
+    background-color: #184cb0; 
+} 
+ 
+.highlight { 
+    color: #184cb0;  
+} 
+ 
+.textshadow{ 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+} 
+
+.form-control { 
+    background-color: #d2d3d5;  
+    border: 1px solid #ced4da;  
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);  
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #007bff; 
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-color: #007bff;
+}
+
+.custom-checkbox .custom-control-input ~ .custom-control-label::before {
+    border: 1px solid #007bff; 
+}
+
+body {
+    height: 100vh; 
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(169,180,220); 
+    background: linear-gradient(180deg, rgba(169,180,220,1) 0%, rgba(241,240,250,1) 19%, rgba(255,255,255,1) 51%); 
+} 
+ 
+.form-group.position-relative i {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    right: 25px; 
+    pointer-events: none; 
+    font-size: 1.5rem;
+}
